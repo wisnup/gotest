@@ -1,4 +1,4 @@
-package main
+package hello
 
 import "fmt"
 
@@ -11,7 +11,7 @@ const (
 	spanishPrefix = "Hola, "
 )
 
-func Hello(name, lang string) string {
+func Hello(name, lang string) (greeting string) {
 	if name == "" {
 		name = "World"
 	}
