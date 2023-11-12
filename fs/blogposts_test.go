@@ -1,11 +1,9 @@
-package blogposts_test
+package blogposts
 
 import (
 	"reflect"
 	"testing"
 	"testing/fstest"
-
-	blogposts "github.com/quii/learn-go-with-tests/reading-files"
 )
 
 func TestNewBlogPosts(t *testing.T) {
